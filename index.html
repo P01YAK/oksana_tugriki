@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Оксана из Польши</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1 class="title">Оксана из Польши ждет ваши тугрики</h1>
+	<img src="yacht.png" class="yacht-image">
+	<button id="money-button" onclick="addPoints()">Несите свои тугрики</button>
+	<p class="points">Тугриков: <span id="points">0</span></p>
+	<button id="goose-button" onclick="playSound()">Кря</button>
+
+	<audio id="goose-sound">
+		<source src="goose.mp3" type="audio/mpeg">
+		<source src="goose.ogg" type="audio/ogg">
+		Your browser does not support the audio tag.
+	</audio>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
